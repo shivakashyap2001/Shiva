@@ -3,13 +3,13 @@
 #include<string.h>
 void main()
 {
-	intk,i,l;
+	int k,i,l;
 	char dinar[100];
-	printf(Enter a STRING:\n");
+	printf("Enter a STRING:\n");
 	gets(dinar);
 	i=strlen(dinar);
 	printf("the ASCII values of  the strinng are:\n");
-	for(i=0;i<|;i++)
+	for(i=0;i<l;i++)
 		{
 		  k=dinar[i];
 		  printf("%d",k);
