@@ -108,6 +108,7 @@ void hotel::display()
 		fin.read((char*)this,sizeof(hotel));
 		if(room_no==r)
 		{
+<<<<<<< HEAD
 			clrscr():
 			cout<<"\n Cusromer Details";
 			cout<<"\n ****************";
@@ -116,3 +117,6 @@ void hotel::display()
 			cout<<"\n Address: "<<address;
 			cout<<"\n Phone no: "<<phone;
 			flag
+=======
+			clrscr():
+>>>>>>> 1ba3b01f0a3bc54c24570e5f903a2b94c402c8ef

@@ -55,6 +55,7 @@ void  hostel::main_menu()
 		}
 	}
 	
+<<<<<<< HEAD
 } 
 
 int hostel::add()
@@ -118,3 +119,6 @@ if(room-no = r)
 	
 
 		
+=======
+}                                    
+>>>>>>> 1ba3b01f0a3bc54c24570e5f903a2b94c402c8ef
