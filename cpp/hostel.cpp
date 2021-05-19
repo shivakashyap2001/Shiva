@@ -1,4 +1,5 @@
-#include<iostream.h>
+#include<iostream>
+#include<fstream>
 #include<cstring>
 
 using namespace std;
@@ -55,10 +56,9 @@ void  hostel::main_menu()
 		}
 	}
 	
-<<<<<<< HEAD
 } 
 
-int hostel::add()
+void hostel::add()
 
 {
 		int r,flag;
@@ -74,7 +74,7 @@ int hostel::add()
 		cout<<"\n\n Room no: ";
 		cin>>r;
 		
-		flag=check(r);
+		//flag=check(r);
 		
 		
 		if(flag)
@@ -83,7 +83,7 @@ int hostel::add()
 		
 		else
 		{
-			room-no=r;
+			//room-no=r;
 			
 			
 			cout<<"\n Name:\t ";
@@ -92,7 +92,7 @@ int hostel::add()
 			cout<<"\n Address:\t";
 			cin>>"address;
 			
-			cout<<"\n phone No:\t ";
+			////cout<<"\n phone No:\t ";
 			cin>>phone;
 			
 				cout<<endl;
@@ -119,6 +119,3 @@ if(room-no = r)
 	
 
 		
-=======
-}                                    
->>>>>>> 1ba3b01f0a3bc54c24570e5f903a2b94c402c8ef
