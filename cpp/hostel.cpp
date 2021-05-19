@@ -6,9 +6,9 @@ using namespace std;
 class hostel 
 {
 	int room_no;
-	char name[2];
-	char addresss[10];
-	char phone_no[05];
+	char name[20];
+	char address[50];
+	char phone_no[10];
 	
 	public:
 	void main_menu();  // to display the main menu
@@ -64,9 +64,6 @@ void hostel::add()
 		int r,flag;
 		
 		ofstream fout("Record.txt",ios::app);
-		
-		
-		
 		cout<<"\n Enter Customer Details";
 		
 		cout<<"\n *********************";
@@ -90,10 +87,10 @@ void hostel::add()
 			cin>>name;
 			
 			cout<<"\n Address:\t";
-			cin>>"address;
+			cin>>address;
 			
-			////cout<<"\n phone No:\t ";
-			cin>>phone;
+			cout<<"\n phone No:\t ";
+			cin>>phone_no;
 			
 				cout<<endl;
 				
@@ -108,14 +105,4 @@ void hostel::add()
 		cout<<"\n Press any key to continue!!";
 	system("pause");
 		fout.close();
-		
-		return 0;
 }
-
-fin.read((char*)this,sizeof(*this));
-
-if(room-no = r)
-	
-	
-
-		
