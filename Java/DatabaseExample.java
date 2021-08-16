@@ -13,10 +13,8 @@ class Hosteller implements ActionListner {
     Private String branch;
 
     Frame f;
-    Label lbl_hosteller_id,lbl_name, lbl_gender, lbl_phone_no,
-lbl_address, lbl_room_no, lbl_branch;
-    TextField txt_hosteller_id, txt_name, txt_gender, txt_phone_no,
-txt_address, txt_room_no, txt_branch;
+    Label lbl_hosteller_id,lbl_name, lbl_gender, lbl_phone_no,lbl_address, lbl_room_no, lbl_branch;
+    TextField txt_hosteller_id, txt_name, txt_gender, txt_phone_no,txt_address, txt_room_no, txt_branch;
     Button btn_submit;
 
     Scanner sc = new Scanner(System.in);
@@ -52,9 +50,31 @@ txt_address, txt_room_no, txt_branch;
                 break;
             default:
                 System.out.println("Invalid Option");
-
-        }
-
+                menu();
         }
     }
-}
+
+    void newHosteller() {
+        System.out,print("Hosteller Id: ");
+        hosteller_id =sc.nextInt()'
+        sc.nextLine();
+        System.out.print("Name: ");
+        name = sc.nextLine();
+        System.out.print("Gender: ");
+        gender = sc.next();
+        System.out,print("Phone no: ");
+        Phone_no = sc.next();
+        sc.nextLine();
+        System.out.print("Address: ");
+        address = sc. nextline();
+        System.out.print("Room No.:");
+        room_no = sc.next();
+        System.out.print("Branch: ");
+        branch = sc.next();
+        // sc.close();
+        connectivity();
+        }
+
+        void connctivity() {
+
+            // ---- Code for Database Connectivity ----------        
